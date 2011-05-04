@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BF021E81371EA110038E5D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF021E71371EA110038E5D5 /* Cocoa.framework */; };
+		4BF021F21371EA110038E5D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BF021F01371EA110038E5D5 /* InfoPlist.strings */; };
+		4BF021F51371EA110038E5D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF021F41371EA110038E5D5 /* main.m */; };
+		4BF021F81371EA110038E5D5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4BF021F61371EA110038E5D5 /* Credits.rtf */; };
+		4BF021FB1371EA120038E5D5 /* ProgressAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF021FA1371EA120038E5D5 /* ProgressAppDelegate.m */; };
+		4BF021FE1371EA120038E5D5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF021FC1371EA120038E5D5 /* MainMenu.xib */; };
+		4BF0220A1371EA2D0038E5D5 /* NPStrippedProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF022051371EA2D0038E5D5 /* NPStrippedProgressView.m */; };
+		4BF0220B1371EA2D0038E5D5 /* NPColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF022071371EA2D0038E5D5 /* NPColoredView.m */; };
+		4BF0220C1371EA2D0038E5D5 /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF022091371EA2D0038E5D5 /* NSBezierPath+BezierPathQuartzUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BF021E31371EA110038E5D5 /* Progress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Progress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF021E71371EA110038E5D5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4BF021EA1371EA110038E5D5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4BF021EB1371EA110038E5D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4BF021EC1371EA110038E5D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4BF021EF1371EA110038E5D5 /* Progress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Progress-Info.plist"; sourceTree = "<group>"; };
+		4BF021F11371EA110038E5D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BF021F31371EA110038E5D5 /* Progress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Progress-Prefix.pch"; sourceTree = "<group>"; };
+		4BF021F41371EA110038E5D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BF021F71371EA110038E5D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4BF021F91371EA120038E5D5 /* ProgressAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressAppDelegate.h; sourceTree = "<group>"; };
+		4BF021FA1371EA120038E5D5 /* ProgressAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressAppDelegate.m; sourceTree = "<group>"; };
+		4BF021FD1371EA120038E5D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4BF022041371EA2D0038E5D5 /* NPStrippedProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPStrippedProgressView.h; sourceTree = "<group>"; };
+		4BF022051371EA2D0038E5D5 /* NPStrippedProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPStrippedProgressView.m; sourceTree = "<group>"; };
+		4BF022061371EA2D0038E5D5 /* NPColoredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPColoredView.h; sourceTree = "<group>"; };
+		4BF022071371EA2D0038E5D5 /* NPColoredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPColoredView.m; sourceTree = "<group>"; };
+		4BF022081371EA2D0038E5D5 /* NSBezierPath+BezierPathQuartzUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+BezierPathQuartzUtilities.h"; sourceTree = "<group>"; };
+		4BF022091371EA2D0038E5D5 /* NSBezierPath+BezierPathQuartzUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+BezierPathQuartzUtilities.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF021E01371EA110038E5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF021E81371EA110038E5D5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF021D81371EA110038E5D5 = {
+			isa = PBXGroup;
+			children = (
+				4BF021ED1371EA110038E5D5 /* Progress */,
+				4BF021E61371EA110038E5D5 /* Frameworks */,
+				4BF021E41371EA110038E5D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF021E41371EA110038E5D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF021E31371EA110038E5D5 /* Progress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF021E61371EA110038E5D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BF021E71371EA110038E5D5 /* Cocoa.framework */,
+				4BF021E91371EA110038E5D5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BF021E91371EA110038E5D5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BF021EA1371EA110038E5D5 /* AppKit.framework */,
+				4BF021EB1371EA110038E5D5 /* CoreData.framework */,
+				4BF021EC1371EA110038E5D5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4BF021ED1371EA110038E5D5 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				4BF021F91371EA120038E5D5 /* ProgressAppDelegate.h */,
+				4BF021FA1371EA120038E5D5 /* ProgressAppDelegate.m */,
+				4BF022041371EA2D0038E5D5 /* NPStrippedProgressView.h */,
+				4BF022051371EA2D0038E5D5 /* NPStrippedProgressView.m */,
+				4BF022061371EA2D0038E5D5 /* NPColoredView.h */,
+				4BF022071371EA2D0038E5D5 /* NPColoredView.m */,
+				4BF022081371EA2D0038E5D5 /* NSBezierPath+BezierPathQuartzUtilities.h */,
+				4BF022091371EA2D0038E5D5 /* NSBezierPath+BezierPathQuartzUtilities.m */,
+				4BF021FC1371EA120038E5D5 /* MainMenu.xib */,
+				4BF021EE1371EA110038E5D5 /* Supporting Files */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		4BF021EE1371EA110038E5D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BF021EF1371EA110038E5D5 /* Progress-Info.plist */,
+				4BF021F01371EA110038E5D5 /* InfoPlist.strings */,
+				4BF021F31371EA110038E5D5 /* Progress-Prefix.pch */,
+				4BF021F41371EA110038E5D5 /* main.m */,
+				4BF021F61371EA110038E5D5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF021E21371EA110038E5D5 /* Progress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF022011371EA120038E5D5 /* Build configuration list for PBXNativeTarget "Progress" */;
+			buildPhases = (
+				4BF021DF1371EA110038E5D5 /* Sources */,
+				4BF021E01371EA110038E5D5 /* Frameworks */,
+				4BF021E11371EA110038E5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Progress;
+			productName = Progress;
+			productReference = 4BF021E31371EA110038E5D5 /* Progress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF021DA1371EA110038E5D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Linebreak;
+			};
+			buildConfigurationList = 4BF021DD1371EA110038E5D5 /* Build configuration list for PBXProject "Progress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4BF021D81371EA110038E5D5;
+			productRefGroup = 4BF021E41371EA110038E5D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF021E21371EA110038E5D5 /* Progress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF021E11371EA110038E5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF021F21371EA110038E5D5 /* InfoPlist.strings in Resources */,
+				4BF021F81371EA110038E5D5 /* Credits.rtf in Resources */,
+				4BF021FE1371EA120038E5D5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF021DF1371EA110038E5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF021F51371EA110038E5D5 /* main.m in Sources */,
+				4BF021FB1371EA120038E5D5 /* ProgressAppDelegate.m in Sources */,
+				4BF0220A1371EA2D0038E5D5 /* NPStrippedProgressView.m in Sources */,
+				4BF0220B1371EA2D0038E5D5 /* NPColoredView.m in Sources */,
+				4BF0220C1371EA2D0038E5D5 /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BF021F01371EA110038E5D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF021F11371EA110038E5D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4BF021F61371EA110038E5D5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF021F71371EA110038E5D5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4BF021FC1371EA120038E5D5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF021FD1371EA120038E5D5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF021FF1371EA120038E5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4BF022001371EA120038E5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4BF022021371EA120038E5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Progress/Progress-Prefix.pch";
+				INFOPLIST_FILE = "Progress/Progress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4BF022031371EA120038E5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Progress/Progress-Prefix.pch";
+				INFOPLIST_FILE = "Progress/Progress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF021DD1371EA110038E5D5 /* Build configuration list for PBXProject "Progress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF021FF1371EA120038E5D5 /* Debug */,
+				4BF022001371EA120038E5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF022011371EA120038E5D5 /* Build configuration list for PBXNativeTarget "Progress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF022021371EA120038E5D5 /* Debug */,
+				4BF022031371EA120038E5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF021DA1371EA110038E5D5 /* Project object */;
+}
